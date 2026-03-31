@@ -32,13 +32,13 @@ const Profile = () => {
        <h2 className="profile-title">PROFILE</h2>
        <div className="profile-grid-dense">
           {/* Column 1: Photo */}
-          <div className="profile-photo" style={{ backgroundImage: 'url("/img/사진.png")' }}>
+          <div className="profile-photo" style={{ backgroundImage: 'url("./img/사진.png")' }}>
           </div>
           
           {/* Column 2: About & Info */}
           <div>
              <p className="profile-p">
-                I'm a visionary developer from <span>DAEGU, KR</span>. I blur the line between <span>code and art</span>, building visually striking interfaces driven by robust modern architecture. My arsenal includes <span>React, GSAP, Three.js</span> and an unrelenting obsession with pixel-perfect design.
+                틀에 얽매이지 않는 창의적인 프론트엔드 개발자 박경훈입니다. 저는 <span>기능과 예술의 경계</span>를 허물며, 시각적으로 강렬하면서도 탄탄한 아키텍처를 기반으로 한 웹 경험을 구축합니다. <span>React, GSAP, 모던 JS</span>에 대한 깊은 이해도와 집요한 픽셀 디테일을 바탕으로 사용자에게 잊지 못할 몰입형 디지털 인터랙션을 선사합니다.
              </p>
              <div className="stat-group" style={{ marginBottom: '40px' }}>
                 <h3 className="stat-header">INFO</h3>
