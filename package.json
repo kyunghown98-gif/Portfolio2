@@ -1,9 +1,12 @@
 {
   "name": "portfolio-component-react",
   "private": true,
+  "homepage": "https://kyunghown98-gif.github.io/Portfolio2",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview"

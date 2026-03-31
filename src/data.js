@@ -44,6 +44,7 @@ export const skillsData = [
   { cat: "SCRIPT", items: ["JavaScript ES6+", "React", "DOM API"] },
   { cat: "DESIGN", items: ["Photoshop", "Illustrator", "Figma"] }, 
   { cat: "TOOL", items: ["Git/GitHub", "VS Code"] },
+  { cat: "AI 활용", items: ["ChatGPT", "Gemini", "Claude", "GitHub Copilot", "Prompt Engineering"] },
   { cat: "CORE SKILLS", items: ["반응형 웹", "REST API", "웹 접근성"] },
 ];
 
